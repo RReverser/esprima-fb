@@ -62,7 +62,7 @@
         "generate-regex": "node tools/generate-identifier-regex.js",
 
         "pretest": "npm run-script lint",
-        "test": "node test/runner.js",
+        "test": "node test/run.js",
         "posttest": "npm run-script coverage && npm run-script complexity",
 
         "lint": "npm run-script check-version && npm run-script eslint && npm run-script jscs && npm run-script jslint",
